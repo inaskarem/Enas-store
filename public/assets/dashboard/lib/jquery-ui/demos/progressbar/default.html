@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery UI Progressbar - Default functionality</title>
+	<link rel="stylesheet" href = " {{ asset ('assets/dashboard/../themes/base/all.css')}}">
+	<link rel="stylesheet" href = " {{ asset ('assets/dashboard/demos.css')}}">
+	<script src =" {{ asset ('assets/dashboard/../external/requirejs/require.js')}}"></script>
+	<script src =" {{ asset ('assets/dashboard/bootstrap.js')}}">
+		$( "#progressbar" ).progressbar({
+			value: 37
+		});
+	</script>
+</head>
+<body>
+
+<div id="progressbar"></div>
+
+<div class="demo-description">
+<p>Default determinate progress bar.</p>
+</div>
+</body>
+</html>

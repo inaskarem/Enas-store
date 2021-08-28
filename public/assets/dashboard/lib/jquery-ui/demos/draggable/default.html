@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery UI Draggable - Default functionality</title>
+	<link rel="stylesheet" href = " {{ asset ('assets/dashboard/../themes/base/all.css')}}">
+	<link rel="stylesheet" href = " {{ asset ('assets/dashboard/demos.css')}}">
+	<style>
+	#draggable { width: 150px; height: 150px; padding: 0.5em; }
+	</style>
+	<script src =" {{ asset ('assets/dashboard/../external/requirejs/require.js')}}"></script>
+	<script src =" {{ asset ('assets/dashboard/bootstrap.js')}}">
+		$( "#draggable" ).draggable();
+	</script>
+</head>
+<body>
+
+<div id="draggable" class="ui-widget-content">
+	<p>Drag me around</p>
+</div>
+
+<div class="demo-description">
+<p>Enable draggable functionality on any DOM element. Move the draggable object by clicking on it with the mouse and dragging it anywhere within the viewport.</p>
+</div>
+</body>
+</html>
